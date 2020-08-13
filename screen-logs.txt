@@ -1,0 +1,44 @@
+ _            _             _   
+| |_ __ _ ___| | _____ __ _| |_ 
+| __/ _` / __| |/ / __/ _` | __|
+| || (_| \__ \   < (_| (_| | |_ 
+ \__\__,_|___/_|\_\___\__,_|\__|
+                                
+
+
+version 0.9.19
+[0;30;43m[WARN   ][0m : Lint detected issues for test default on template /Users/dnyandig/Documents/Work/HPC_Technical/QuickStarts/qs_workshop/qs-workshop/submodules/quickstart-aws-vpc/templates/aws-vpc.template:
+[0;30;43m[WARN   ][0m :     line 172 [2001] [Check if Parameters are Used] Parameter KeyPairName not used.
+[0;30;43m[WARN   ][0m :     line 177 [2001] [Check if Parameters are Used] Parameter NATInstanceType not used.
+[0;30;43m[WARN   ][0m :     line 420 [8001] [Check if Conditions are Used] Condition GovCloudCondition not used
+[0;30;41m[ERROR  ][0m : Lint detected issues for test default on template /Users/dnyandig/Documents/Work/HPC_Technical/QuickStarts/qs_workshop/qs-workshop/templates/master.template.yaml:
+[0;30;43m[WARN   ][0m :     line 116 [3005] [Check obsolete DependsOn configuration for Resources] Obsolete DependsOn on resource (VPCStack),
+                                                                             dependency already enforced by a "Fn:GetAtt" at Reso
+                                                                             urces/WorkloadStack/Properties/Parameters/PrivateSub
+                                                                             net1ID/Fn::GetAtt
+[0;30;43m[WARN   ][0m :     line 116 [3005] [Check obsolete DependsOn configuration for Resources] Obsolete DependsOn on resource (VPCStack),
+                                                                             dependency already enforced by a "Fn:GetAtt" at Reso
+                                                                             urces/WorkloadStack/Properties/Parameters/PrivateSub
+                                                                             net2ID/Fn::GetAtt
+[0;30;43m[WARN   ][0m :     line 116 [3005] [Check obsolete DependsOn configuration for Resources] Obsolete DependsOn on resource (VPCStack),
+                                                                             dependency already enforced by a "Fn:GetAtt" at Reso
+                                                                             urces/WorkloadStack/Properties/Parameters/PublicSubn
+                                                                             et1ID/Fn::GetAtt
+[0;30;43m[WARN   ][0m :     line 116 [3005] [Check obsolete DependsOn configuration for Resources] Obsolete DependsOn on resource (VPCStack),
+                                                                             dependency already enforced by a "Fn:GetAtt" at Reso
+                                                                             urces/WorkloadStack/Properties/Parameters/PublicSubn
+                                                                             et2ID/Fn::GetAtt
+[0;30;43m[WARN   ][0m :     line 116 [3005] [Check obsolete DependsOn configuration for Resources] Obsolete DependsOn on resource (VPCStack),
+                                                                             dependency already enforced by a "Fn:GetAtt" at Reso
+                                                                             urces/WorkloadStack/Properties/Parameters/VPCID/Fn::
+                                                                             GetAtt
+[0;30;43m[WARN   ][0m :     line 116 [3005] [Check obsolete DependsOn configuration for Resources] Obsolete DependsOn on resource (VPCStack),
+                                                                             dependency already enforced by a "Fn:GetAtt" at Reso
+                                                                             urces/WorkloadStack/Properties/Parameters/VPCCIDR/Fn
+                                                                             ::GetAtt
+[0;30;41m[ERROR  ][0m :     line 123 [8002] [Check if the referenced Conditions are defined] Condition UsingDefaultBucket is not defined.
+[0;30;43m[WARN   ][0m : Lint detected issues for test default on template /Users/dnyandig/Documents/Work/HPC_Technical/QuickStarts/qs_workshop/qs-workshop/templates/workload.template.yaml:
+[0;30;43m[WARN   ][0m :     line 71 [2001] [Check if Parameters are Used] Parameter PrivateSubnet1ID not used.
+[0;30;43m[WARN   ][0m :     line 74 [2001] [Check if Parameters are Used] Parameter PrivateSubnet2ID not used.
+[0;30;43m[WARN   ][0m :     line 86 [2001] [Check if Parameters are Used] Parameter VPCCIDR not used.
+[0;30;41m[ERROR  ][0m : Lint failed with errors
